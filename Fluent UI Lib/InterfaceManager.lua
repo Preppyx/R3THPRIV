@@ -1,7 +1,7 @@
 local HttpService = game:GetService("HttpService")
 
 local InterfaceManager = {} do
-	InterfaceManager.Folder = "HighlightHub"
+	InterfaceManager.Folder = "R3TH PRIV"
     InterfaceManager.Settings = {
         Theme = "Darker",
         Acrylic = false,
@@ -66,7 +66,7 @@ local InterfaceManager = {} do
 		function ToggleUi(toggle)
 			if toggle then
 				ToggleUI = Instance.new("ScreenGui")
-				ToggleUI.Name = "HL Toggle"
+				ToggleUI.Name = "R3TH PRIV Toggle"
 				ToggleUI.Parent = game:GetService("CoreGui")
 			
 				local Button = Instance.new("TextButton")
@@ -80,7 +80,7 @@ local InterfaceManager = {} do
 				ImageLabel.Name = "ImageLabel"
 				ImageLabel.BackgroundTransparency = 1
 				ImageLabel.Size = UDim2.new(1, 0, 1, 0)
-				ImageLabel.Image = "rbxassetid://14529410392"
+				ImageLabel.Image = "rbxassetid://18762074724"
 				ImageLabel.Parent = Button
 			
 				local UICorner = Instance.new("UICorner")
