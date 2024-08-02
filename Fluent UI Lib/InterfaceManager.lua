@@ -139,7 +139,7 @@ local InterfaceManager = {} do
 			end
 		end
 
-        section:AddParagraph({
+        tab:AddParagraph({
             Title = "Credits",
             Content = "Pethicial - R3TH PRIV"
         })
