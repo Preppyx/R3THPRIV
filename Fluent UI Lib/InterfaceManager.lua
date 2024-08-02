@@ -181,7 +181,7 @@ local InterfaceManager = {} do
 		})
 
 		section:AddToggle("ToggleUiButtonToggle", {
-			Title = "Toggle Ui Button",
+			Title = "Toggle UI Button",
 			Default = Settings.ToggleUiButton,
 			Callback = function(Value)
 				Settings.ToggleUiButton = Value
@@ -192,7 +192,7 @@ local InterfaceManager = {} do
 
 		section:AddToggle("AutoMinimizeToggle", {
 			Title = "Auto Minimize",
-			Description = "Minimize the ui after loading it.",
+			Description = "Minimize the UI after loading it.",
 			Default = Settings.AutoMinimize,
 			Callback = function(Value)
 				Settings.AutoMinimize = Value
