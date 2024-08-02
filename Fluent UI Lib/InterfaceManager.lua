@@ -139,6 +139,11 @@ local InterfaceManager = {} do
 			end
 		end
 
+        section:AddParagraph({
+            Title = "Credits",
+            Content = "Pethicial - R3TH PRIV"
+        })
+
         InterfaceManager:LoadSettings()
 
 		local section = tab:AddSection("Interface")
